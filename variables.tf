@@ -13,6 +13,7 @@ variable "chart" {
 
 variable "chart_version" {
   description = "Specify the exact chart version to install. If this is not specified, the latest version is installed."
+  default     = null
 }
 
 variable "namespace" {
