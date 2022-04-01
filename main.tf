@@ -3,7 +3,7 @@ resource "helm_release" "release" {
 
   repository = var.repository
   chart      = var.chart
-  version    = var.version
+  version    = var.chart_version
   namespace  = var.namespace
 
   values = var.values

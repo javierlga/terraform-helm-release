@@ -11,7 +11,7 @@ variable "chart" {
   description = " Chart name to be installed. The chart name can be local path, a URL to a chart, or the name of the chart if repository is specified."
 }
 
-variable "version" {
+variable "chart_version" {
   description = "Specify the exact chart version to install. If this is not specified, the latest version is installed."
 }
 
